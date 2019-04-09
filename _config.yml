@@ -1,0 +1,65 @@
+url: https://elotroalex.github.io
+baseurl: "/flip"
+
+# Site settings
+title: FLIP
+email: your-email@domain.com
+description: "Columbia's First-Generation Low Income Partnership"
+
+
+# Team names, titles and social links
+people:
+- name: Isaiah Michael Guzman
+  pic: 1
+  position: President for Life
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Lupita Lopez
+  pic: 2
+  position: Some Role
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Maha Assiz
+  pic: 3
+  position: Some Role
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
