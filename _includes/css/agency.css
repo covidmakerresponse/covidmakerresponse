@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "proxima-nova","Trajan Pro","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #085AFB;
 }
 
 .navbar-default .navbar-brand:hover,
