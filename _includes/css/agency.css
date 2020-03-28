@@ -729,6 +729,10 @@ section#contact::-moz-placeholder {
     color: #bbb;
 }
 
+input {
+    border-width: 0;
+}
+
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
