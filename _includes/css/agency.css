@@ -41,7 +41,7 @@ p.large {
 }
 
 p.normal-text {
-    margin: 0 10rem;
+    margin: 0 12%;
 }
 
 a,
@@ -310,7 +310,6 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
-    line-height: 22px;
 }
 
 header .intro-text .intro-heading {
@@ -319,7 +318,6 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 30px;
     font-weight: 700;
-    line-height: 50px;
 }
 
 @media(min-width:768px) {
@@ -686,7 +684,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -898,7 +895,7 @@ body {
     webkit-tap-highlight-color: #E55729};
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 640px) {
 
     p .normal-text {
         margin: 0 10%;
@@ -906,6 +903,14 @@ body {
 
 }
 
-iframe, .navbar {
-    overflow: hidden;
+
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}*/
+div.image {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
 }
