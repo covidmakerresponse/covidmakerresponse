@@ -905,3 +905,7 @@ body {
     }
 
 }
+
+iframe, .navbar {
+    overflow: hidden;
+}
